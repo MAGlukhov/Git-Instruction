@@ -44,6 +44,10 @@ git clone link
 Затем вносим изменения, коммитим и пушим (git push). Чтобы скачать актуальную версию файла с сайта используем команду git pull. 
 
 Для превращения локального репозитория в удалённый копируем команды из GitHub:
+
 git remote add origin https://github.com/MAGlukhov/GitInstruction.git
+
 git branch -M main
+
 git push -u origin main
+
